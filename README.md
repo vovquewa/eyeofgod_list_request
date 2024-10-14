@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### Windows
 Run the batch file:
-run.bat
+`run.bat`
 
 ### macOS and Linux
 Execute the Python script:
