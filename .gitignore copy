@@ -1,0 +1,8 @@
+# venv
+/venv
+
+.env
+sandbox.py
+phone_list.txt
+chat_history*.txt
+*.session
