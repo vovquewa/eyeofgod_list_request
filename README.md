@@ -46,6 +46,7 @@ python main.py
 ```
 
 ## Project Structure
+```
 eyeofgod_list_request/
 ├── venv/
 ├── main.py
@@ -54,3 +55,4 @@ eyeofgod_list_request/
 ├── .env
 ├── run.bat
 └── README.md
+```
