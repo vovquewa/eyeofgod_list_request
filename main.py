@@ -46,7 +46,7 @@ def save_chat_history(client, prone_list):
     history_dir = "history"
     os.makedirs(history_dir, exist_ok=True)
 
-    new_filename = f'chat_history_{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}.txt'
+    new_filename = f'chat_history_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}.txt'
     new_filepath = os.path.join(history_dir, new_filename)
 
     mode = "a" if os.path.exists(new_filepath) else "w"
